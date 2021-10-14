@@ -7,6 +7,6 @@ theme: /
             
        # script:
         #    addNote($parseTree._anyText, $context);
-    buttons:
+        buttons:
             "Видосик SBI"
             
