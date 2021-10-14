@@ -48,7 +48,7 @@ theme: /
             a: Добро пожаловать в SBI! Хочу показать наши достижения!
             
         buttons:
-            "Видосик SBI"
+            "Покажи отчет"
         
     state: Fallback
         event!: noMatch
