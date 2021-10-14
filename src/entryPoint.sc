@@ -50,6 +50,12 @@ theme: /
         intent!: /привет
         a: Привет привет
 
+   
+    state: Приветствие
+        q!: (запусти!проиграй!открой)
+            [видео!ролик!тизер]
+            $AnyText::anyText
+        a:  {{$parseTree._anyText}}
         
     state: Fallback
         event!: noMatch
