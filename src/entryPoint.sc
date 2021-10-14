@@ -12,7 +12,7 @@ require: scenario/addNote.sc
 require: scenario/doNote.sc
 require: scenario/deleteNote.sc
 require: scenario/serverActions.sc
-
+require: scenario/test.sc
 
 patterns:
     $AnyText = $nonEmptyGarbage
