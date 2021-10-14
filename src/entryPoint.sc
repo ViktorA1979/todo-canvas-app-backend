@@ -46,9 +46,10 @@ theme: /
         else:
             a: Добро пожаловать в заметки!
 
-    state: Приветсвие
+    state: Приветствие
         intent!: /привет
         a: Привет привет
+
         
     state: Fallback
         event!: noMatch
