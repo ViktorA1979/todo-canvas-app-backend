@@ -12,7 +12,7 @@ theme: /
                       items: [{
                         command :{
                                     type:"add_note",
-                                    note $parseTree._anyText
+                                    note: $parseTree._anyText
                                  }
                             
                               }]
