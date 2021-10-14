@@ -5,5 +5,8 @@ theme: /
             [тизер|отчет]
             $AnyText::anyText
             
-        script:
-            addNote($parseTree._anyText, $context);
+       # script:
+        #    addNote($parseTree._anyText, $context);
+    buttons:
+            "Видосик SBI"
+            
