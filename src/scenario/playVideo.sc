@@ -6,19 +6,23 @@ theme: /
             $AnyText::anyText
             
         script:
-                $response.replies = $response.replies || [];
-    
-                var body = {
-                      items: [{
-                        command :{
-                                    type:"play_video",
-                                    note: $parseTree._anyText
-                                 }
-                            
-                              }]
-                            };
+        
+            $response.replies = $response.replies || [];
                 
-                $response.replies.push({ type : "raw", body : body });
+                var body = {
+                    items:[{
+                        command:{
+                            type: "smart_app_data",
+                            action :{
+                                type: "play_video",
+                                note: $parseTree._anyText
+                            }
+                        }
+                    }]
+                };    
+                $response.replies.push({ type : "raw", body: body});      
+            
+                
         buttons:
             "Видосик SBI"
             
