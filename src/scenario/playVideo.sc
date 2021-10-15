@@ -11,7 +11,7 @@ theme: /
                 var body = {
                       items: [{
                         command :{
-                                    type:"add_note",
+                                    type:"play_video",
                                     note: $parseTree._anyText
                                  }
                             
