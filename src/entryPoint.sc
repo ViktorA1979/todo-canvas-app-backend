@@ -51,6 +51,8 @@ theme: /
         buttons:
             "Покажи отчет"
             "Выйти"
+            
+        go!: /ЗапускВидеоТизера
      
         
     state: Fallback
