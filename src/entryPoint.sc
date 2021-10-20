@@ -49,10 +49,7 @@ theme: /
         
      
         
-        buttons:
-            "Покажи отчет"
-        buttons:
-            "Выйти"
+     
         
     state: Fallback
         event!: noMatch
