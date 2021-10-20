@@ -48,7 +48,9 @@ theme: /
             a: Добро пожаловать в SBI!
         
      
-        
+     buttons:
+            "Покажи отчет"
+            "Выйти"
      
         
     state: Fallback
