@@ -41,11 +41,11 @@ theme: /
             $temp.appeal = $request.rawRequest.payload.character.appeal;
             
         if: $temp.appeal == "official"
-            a: Международный блок приветствует вас! 
+            a: Чем могу помочь?
         elseif: $temp.appeal == "no_official"
-            a: Международный блок приветствует вас! 
+            a: Чем могу помочь? 
         else:
-            a: Международный блок приветствует вас!
+            a: Чем могу помочь?
             
         
      
