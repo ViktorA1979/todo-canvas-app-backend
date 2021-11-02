@@ -1,8 +1,8 @@
-    state: ЗапускВидеоТизера
-        q!: воздух
-            $AnyText::anyText
+state: ЗапускВидеоТизера
+    q!: воздух
+        $AnyText::anyText
             
-        script:
+    script:
         
             $response.replies = $response.replies || [];
                 
@@ -30,6 +30,6 @@
                 $response.replies.push({ type : "raw", body: body});      
             
             
-        buttons:
-            "Выйти"
+    buttons:
+        "Выйти"
             
