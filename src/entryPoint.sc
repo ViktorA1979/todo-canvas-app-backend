@@ -33,11 +33,11 @@ theme: /
             $temp.appeal = $request.rawRequest.payload.character.appeal;
             
         if: $temp.appeal == "official"
-            a: Чем могу помочь?
+            a: Чем могу помочь
         elseif: $temp.appeal == "no_official"
-            a: Чем могу помочь? 
+            a: Чем могу помочь 
         else:
-            a: Чем могу помочь?
+            a: Чем могу помочь
             
         
      
@@ -53,4 +53,5 @@ theme: /
         a: Я не понимаю.
     
         buttons:
+            "Расскажи про новые проекты"
             "Выйти"
