@@ -58,3 +58,6 @@ theme: /
     state: Fallback
         event!: noMatch
         a: Я не понимаю.
+    
+    buttons:
+            "Выйти"
