@@ -1,8 +1,12 @@
-state: ЗапускВидеоТизера
-    q!: воздух
-        $AnyText::anyText
+theme: /
+
+    state: ЗапускВидеоТизера
+        q!: (~добавить|~установить|запиши|поставь|закинь|~напомнить) 
+            [~напоминание|~заметка|~задание|~задача]
+
+            $AnyText::anyText
             
-    script:
+        script:
         
             $response.replies = $response.replies || [];
                 
@@ -30,6 +34,6 @@ state: ЗапускВидеоТизера
                 $response.replies.push({ type : "raw", body: body});      
             
             
-    buttons:
-        "Выйти"
+        buttons:
+            "Выйти"
             
