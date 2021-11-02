@@ -49,7 +49,7 @@ theme: /
             
             
             state: GetNumber
-                q: * $Number *
+                q: сколько?
                 a: Ожидается прибытие рейса
         
      
