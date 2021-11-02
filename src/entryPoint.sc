@@ -46,8 +46,6 @@ theme: /
             "Выйти"
             
         
-     
-        
     state: Fallback
         event!: noMatch
         a: Я не понимаю.
