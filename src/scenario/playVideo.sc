@@ -1,7 +1,7 @@
 theme: /
 
     state: ЗапускВидеоТизера
-        q!: про новые проекты
+        q!: Про новые проекты
             $AnyText::anyText
             
         script:
