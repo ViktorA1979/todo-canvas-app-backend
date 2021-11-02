@@ -1,5 +1,3 @@
-theme: /
-
     state: ЗапускВидеоТизера
         q!: воздух
             $AnyText::anyText
