@@ -59,5 +59,5 @@ theme: /
         event!: noMatch
         a: Я не понимаю.
     
-    buttons:
+        buttons:
             "Выйти"
