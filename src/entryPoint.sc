@@ -1,18 +1,10 @@
 require: slotfilling/slotFilling.sc
   module = sys.zb-common
   
-# Подключение javascript обработчиков
-#require: js/getters.js
-#require: js/reply.js
-#require: js/actions.js
-#require: js/findItem.js
+
 require: js/videoActions.js
 
-# Подключение сценарных файлов
-#require: scenario/addNote.sc
-#require: scenario/doNote.sc
-#require: scenario/deleteNote.sc
-#require: scenario/serverActions.sc
+
 require: scenario/playVideo.sc
 
 patterns:
