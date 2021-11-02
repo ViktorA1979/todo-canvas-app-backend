@@ -41,15 +41,15 @@ theme: /
             $temp.appeal = $request.rawRequest.payload.character.appeal;
             
         if: $temp.appeal == "official"
-            a: Международный блок приветствует вас! Что хотите узнать?
+            a: Международный блок приветствует вас! 
         elseif: $temp.appeal == "no_official"
-            a: Международный блок приветствует вас! Что хотите узнать?
+            a: Международный блок приветствует вас! 
         else:
-            a: Международный блок приветствует вас! Что хотите узнать?
+            a: Международный блок приветствует вас!
             
             
-        state: GetNumber
-            q: * $Number *
+        state: Question || modal=true
+            q: Что хотите узнать?
             a: Ожидается прибытие рейса
         
      
