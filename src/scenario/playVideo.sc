@@ -18,17 +18,7 @@ theme: /
                             }
                         }
                     }]
-                };  
-                var reply = {
-                        type: "raw",
-                        body: {
-                            "items": [{
-                            "command": {
-                                "type": "close_app"
-                             }
-                            }]
-                        }
-                };
+                }; 
                 $response.replies.push({ type : "raw", body: body});      
             
             
