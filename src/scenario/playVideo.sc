@@ -14,7 +14,7 @@ theme: /
                             type: "smart_app_data",
                             action :{
                                 type: "play_video",
-                                note: $parseTree._anyText
+                                note: "Video 1"
                             }
                         }
                     }]
