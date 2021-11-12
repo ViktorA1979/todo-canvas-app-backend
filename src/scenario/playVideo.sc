@@ -13,8 +13,8 @@ theme: /
                         command:{
                             type: "smart_app_data",
                             action :{
-                                type: "play_video",
-                                note: "Video 1"
+                                id: "video1",
+                                isPlay: "false"
                             }
                         }
                     }]
