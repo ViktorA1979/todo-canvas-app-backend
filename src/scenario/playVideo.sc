@@ -13,12 +13,16 @@ theme: /
                         command:{
                             type: "smart_app_data",
                             action :{
-                                id: "video1",
-                                isPlay: "false"
+                                type: "play_video", 
+                                clip:{
+                                    id: "video1",
+                                    isPlay: "false"
+                                    }
                             }
                         }
                     }]
                 }; 
+                
                 $response.replies.push({ type : "raw", body: body});      
             
             
