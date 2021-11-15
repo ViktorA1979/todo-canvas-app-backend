@@ -54,7 +54,7 @@ theme: /
                     }]
                 }; 
                 
-                $response.replies.push({ type : "raw", body: body});      
+            $response.replies.push({ type : "raw", body: body});      
             
             
         buttons:
