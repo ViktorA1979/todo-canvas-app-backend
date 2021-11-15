@@ -16,7 +16,7 @@ theme: /
                                 type: "play_video", 
                                 clip:{
                                     id: "video1",
-                                    isPlay: "true"
+                                    isPlay: true
                                     }
                             }
                         }
@@ -46,7 +46,7 @@ theme: /
                                 type: "stop_video", 
                                 clip:{
                                     id: "video1",
-                                    isPlay: "false"
+                                    isPlay: false
                                     }
                             }
                         }
