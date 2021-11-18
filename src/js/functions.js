@@ -19,7 +19,7 @@ function startMedia(context) {
                             srcVideo: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud./Resources/video1.mp4",
                             srcPoster: "",
                             isPlay: true
-                 }
+                        }
         };
 
     return reply(command, context.response);
