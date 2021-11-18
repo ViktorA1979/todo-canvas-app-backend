@@ -20,6 +20,7 @@ function startMedia(context) {
                             srcPoster: "",
                             isPlay: true
                         }
+            }
         };
 
     return reply(command, context.response);
