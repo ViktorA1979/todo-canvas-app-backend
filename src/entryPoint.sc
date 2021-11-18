@@ -3,7 +3,7 @@ require: slotfilling/slotFilling.sc
   
 
 require: js/videoActions.js
-
+require: js/functions.js
 
 require: scenario/playVideo.sc
 

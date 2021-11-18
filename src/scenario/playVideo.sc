@@ -24,8 +24,9 @@ theme: /
                     }]
                 }; 
                 
-                $response.replies.push({ type : "raw", body: body});      
-            
+                $response.replies.push({ type : "raw", body: body}); 
+                
+            startMedia($context);
             
         buttons:
             "Расскажи про новые проекты"
