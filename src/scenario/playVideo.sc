@@ -6,25 +6,7 @@ theme: /
             
         script:
         
-            $response.replies = $response.replies || [];
-                
-                var body = {
-                    items:[{
-                        command:{
-                            type: "smart_app_data",
-                            action :{
-                                type: "play_video", 
-                                clip:{
-                                    srcVideo: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/video1.mp4",
-                                    srcPoster: "",
-                                    isPlay: true
-                                    }
-                            }
-                        }
-                    }]
-                }; 
-                
-                $response.replies.push({ type : "raw", body: body}); 
+   
                 
             startMedia($context);
             
