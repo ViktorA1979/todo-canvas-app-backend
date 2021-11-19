@@ -20,7 +20,7 @@ patterns:
         открой|поиграй со мной|сыграть|давай играть|активируй|давай|поиграем)
     $projectName = (Название вашего навыка)
     
-    $StartVideo = script.clip1.question
+    $StartVideo = (расскажи про новые проекты)
 
 
 theme: /
