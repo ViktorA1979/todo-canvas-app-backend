@@ -23,9 +23,9 @@ theme: /
                     }]
                 }; 
     
-    $response.replies = response.replies || [];
-    //response.replies.push(replyData);
-    $response.replies.push({ type : "raw", body: body});
+            $response.replies = response.replies || [];
+            //response.replies.push(replyData);
+            $response.replies.push({ type : "raw", body: body});
             
         buttons:
             "Расскажи про новые проекты"
