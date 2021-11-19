@@ -7,7 +7,7 @@ theme: /
         script:
 
             //startMedia($context) ;
-            playVideo("https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/video1.mp4", context);
+            playVideo("https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/video1.mp4", $context);
 
         buttons:
             "Расскажи про новые проекты"
