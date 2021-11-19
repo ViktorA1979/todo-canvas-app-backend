@@ -53,3 +53,6 @@ function setPoster(psrc, context) {
     return reply(body, context.response);
     
 }
+
+
+//(~покажи|Расскажи про новые проекты|покажи еще раз) 

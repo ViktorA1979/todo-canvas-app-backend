@@ -1,12 +1,13 @@
 theme: /
 
     state: ЗапускВидеоТизера
-        q!: (~покажи|Расскажи про новые проекты|покажи еще раз) 
+        q!: script.clip1.question
            
             
         script:
 
             playVideo(script.clip1.videoSrc, $context);
+            
             $reactions.buttons(script.clip1.question);
 
         
