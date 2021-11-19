@@ -6,10 +6,10 @@ theme: /
             
         script:
 
-            playVideo($global.script.clip1.videoSrc, $context);
+            playVideo(script.clip1.videoSrc, $context);
 
         buttons:
-            {{$global.script.clip1.question}}
+            "Расскажи про новые проекты"
             "Покажи клип"
             "Останови видео"
             "Выйти"
