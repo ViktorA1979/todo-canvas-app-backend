@@ -64,6 +64,6 @@ function startMedia(context) {
     //         }
     //     };
 
-    // return reply(command, context.response);
+    return reply(context.response);
     
 }
