@@ -1,7 +1,7 @@
 theme: /
 
     state: ЗапускВидеоТизера
-        q!: script.clip1.question
+        q!: (Расскажи про новые проекты)
            
             
         script:
