@@ -6,7 +6,7 @@ theme: /
             
         script:
 
-            reply($response) 
+            reply($response) ;
 
         buttons:
             "Расскажи про новые проекты"
