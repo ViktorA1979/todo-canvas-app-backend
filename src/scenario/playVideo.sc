@@ -6,7 +6,7 @@ theme: /
             
         script:
 
-            reply($response) ;
+            reply($context.response) ;
 
         buttons:
             "Расскажи про новые проекты"

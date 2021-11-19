@@ -1,4 +1,4 @@
-  function reply(response) {
+  function reply(context) {
         // var replyData = {
         //     type: "raw",
         //     body: body
@@ -24,7 +24,7 @@
     // response.replies.push({ type : "raw", body: body});
     
     
-                response.replies = response.replies || [];
+                context.response.replies = context.response.replies || [];
                 
                 var body = {
                     items:[{
@@ -42,7 +42,7 @@
                     }]
                 }; 
                 
-            response.replies.push({ type : "raw", body: body}); 
+            context.response.replies.push({ type : "raw", body: body}); 
     
 }
 
