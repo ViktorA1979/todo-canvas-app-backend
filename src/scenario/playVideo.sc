@@ -9,7 +9,7 @@ theme: /
             playVideo(script.clip1.videoSrc, $context);
 
         buttons:
-            script.clip1.videoSrc
+            "Расскажи про новые проекты"
             "Покажи клип"
             "Останови видео"
             "Выйти"
