@@ -5,7 +5,8 @@ theme: /
            
             
         script:
-            startMedia($context);
+         
+            reply($context.response)
             
         buttons:
             "Расскажи про новые проекты"

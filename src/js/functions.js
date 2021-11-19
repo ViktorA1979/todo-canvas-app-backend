@@ -1,10 +1,8 @@
-  function reply(body, response) {
-    //var replyData = {
-    //    type: "raw",
-    //    body: body
-    //};
-    
-    
+  function reply(response) {
+        // var replyData = {
+        //     type: "raw",
+        //     body: body
+        // };
             var body = {
                 items:[{
                     command:{
@@ -22,7 +20,9 @@
                 }; 
     
     response.replies = response.replies || [];
-    response.replies.push(replyData);
+    //response.replies.push(replyData);
+    response.replies.push({ type : "raw", body: body});
+    
 }
 
 
