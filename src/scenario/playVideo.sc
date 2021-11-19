@@ -9,11 +9,7 @@ theme: /
             playVideo(script.clip1.videoSrc, $context);
             $reactions.buttons(script.clip1.question);
 
-        buttons:
-            "Расскажи про новые проекты"
-            "Покажи клип"
-            "Останови видео"
-            "Выйти"
+        
      
     state: ЗапускВидеоТизераРаз
         q!: (~покажика|покажи клип) 
