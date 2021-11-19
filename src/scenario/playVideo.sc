@@ -15,9 +15,9 @@ theme: /
                             action :{
                                 type: "play_video", 
                                 clip:{
-                                    srcVideo: "",
-                                    srcPoster: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/foto2.jpeg" ,
-                                    isPlay: false
+                                    srcVideo: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/video1.mp4",
+                                    srcPoster: "" ,
+                                    isPlay: true
                                     }
                             }
                         }
