@@ -1,44 +1,18 @@
   function reply(body, response) {
+      
         var replyData = {
             type: "raw",
             body: body
         };
-    //         var body = {
-    //             items:[{
-    //                 command:{
-    //                         type: "smart_app_data",
-    //                         action :{
-    //                             type: "play_video", 
-    //                             clip:{
-    //                                 srcPoster: "",
-    //                                 srcVideo: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/video1.jpeg" ,
-    //                                 isPlay: true
-    //                                 }
-    //                         }
-    //                     }
-    //                 }]
-    //             }; 
-    
-    // response.replies = response.replies || [];
-    // //response.replies.push(replyData);
-    // response.replies.push({ type : "raw", body: body});
-    
-    
-                
-                
-
-                
-            response.replies = response.replies || [];   
-            response.replies.push(replyData); 
-    
+        
+        response.replies = response.replies || [];   
+        response.replies.push(replyData); 
+   
 }
 
 
-
 function startMedia(context) {
-    
-    
-    
+  
     // var command = {
     //     type: "smart_app_data",
     //     action: {
@@ -50,7 +24,6 @@ function startMedia(context) {
     //                     }
     //         }
     //     };
-    
                     var body = {
                     items:[{
                         command:{
@@ -66,6 +39,28 @@ function startMedia(context) {
                         }
                     }]
                 }; 
+
+    return reply(body, context.response);
+    
+}
+
+function playVideo(vsrc, context) {
+    
+    var body = {
+        items:[{
+            command:{
+                type: "smart_app_data",
+                action :{
+                    type: "play_video", 
+                    clip:{
+                        srcVideo: vsrc,
+                        srcPoster: "",
+                        isPlay: true
+                        }
+                }
+            }
+        }]
+    }; 
 
     return reply(body, context.response);
     
