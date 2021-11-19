@@ -24,7 +24,7 @@
     // response.replies.push({ type : "raw", body: body});
     
     
-                response.replies = response.replies || [];
+                
                 
                 var body = {
                     items:[{
@@ -42,6 +42,7 @@
                     }]
                 }; 
                 
+            response.replies = response.replies || [];   
             response.replies.push({ type : "raw", body: body}); 
     
 }
