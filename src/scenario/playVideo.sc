@@ -5,9 +5,6 @@ theme: /
            
             
         script:
-        
-   
-                
             startMedia($context);
             
         buttons:
