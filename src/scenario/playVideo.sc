@@ -6,7 +6,6 @@ theme: /
             
         script:
 
-            //startMedia($context) ;
             playVideo("https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/video1.mp4", $context);
 
         buttons:
@@ -21,27 +20,8 @@ theme: /
             
         script:
         
-            $response.replies = $response.replies || [];
-                
-                var body = {
-                    items:[{
-                        command:{
-                            type: "smart_app_data",
-                            action :{
-                                type: "play_video", 
-                                clip:{
-                                    srcVideo: "",
-                                    srcPoster: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/foto2.jpeg" ,
-                                    isPlay: false
-                                    }
-                            }
-                        }
-                    }]
-                }; 
-                
-            $response.replies.push({ type : "raw", body: body});      
-            
-            
+            setPoster("https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/foto2.jpeg", $context);
+                 
         buttons:
             "Расскажи про новые проекты"
             "Покажи клип"
@@ -53,6 +33,7 @@ theme: /
            
             
         script:
+        
         
             $response.replies = $response.replies || [];
                 
