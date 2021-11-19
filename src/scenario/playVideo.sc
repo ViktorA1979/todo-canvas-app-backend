@@ -7,7 +7,7 @@ theme: /
         script:
 
             playVideo(script.clip1.videoSrc, $context);
-            $reactions.buttons("Расскажи про новые проекты1");
+            $reactions.buttons(script.clip1.question);
 
         buttons:
             "Расскажи про новые проекты"
