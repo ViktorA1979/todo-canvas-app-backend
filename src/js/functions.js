@@ -24,7 +24,7 @@
     // response.replies.push({ type : "raw", body: body});
     
     
-                response.replies = context.response.replies || [];
+                response.replies = response.replies || [];
                 
                 var body = {
                     items:[{
