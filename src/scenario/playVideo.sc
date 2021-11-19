@@ -9,7 +9,7 @@ theme: /
             playVideo(script.clip1.videoSrc, $context);
             
             $reactions.buttons(script.clip1.question);
-
+            $reactions.buttons(script.poster1.question);
         
      
     state: ЗапускВидеоТизераРаз
