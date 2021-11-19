@@ -9,7 +9,7 @@ theme: /
             playVideo($global.script.clip1.videoSrc, $context);
 
         buttons:
-            $global.script.clip1.question
+            {{$global.script.clip1.question}}
             "Покажи клип"
             "Останови видео"
             "Выйти"
