@@ -3,9 +3,12 @@ require: slotfilling/slotFilling.sc
   
 
 require: js/videoActions.js
-require: js/functions.js
+require: js/serviceActions.js
 
 require: scenario/playVideo.sc
+
+require: script.yaml
+    var = script
 
 patterns:
     $AnyText = $nonEmptyGarbage
