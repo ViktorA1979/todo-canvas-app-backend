@@ -1,8 +1,8 @@
-  function reply(response) {
-        // var replyData = {
-        //     type: "raw",
-        //     body: body
-        // };
+  function reply(body, response) {
+        var replyData = {
+            type: "raw",
+            body: body
+        };
     //         var body = {
     //             items:[{
     //                 command:{
@@ -26,24 +26,10 @@
     
                 
                 
-                var body = {
-                    items:[{
-                        command:{
-                            type: "smart_app_data",
-                            action :{
-                                type: "play_video", 
-                                clip:{
-                                    srcVideo: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/video1.mp4",
-                                    srcPoster: "" ,
-                                    isPlay: true
-                                    }
-                            }
-                        }
-                    }]
-                }; 
+
                 
             response.replies = response.replies || [];   
-            response.replies.push({ type : "raw", body: body}); 
+            response.replies.push(replyData); 
     
 }
 
@@ -64,7 +50,23 @@ function startMedia(context) {
     //                     }
     //         }
     //     };
+    
+                    var body = {
+                    items:[{
+                        command:{
+                            type: "smart_app_data",
+                            action :{
+                                type: "play_video", 
+                                clip:{
+                                    srcVideo: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/video1.mp4",
+                                    srcPoster: "" ,
+                                    isPlay: true
+                                    }
+                            }
+                        }
+                    }]
+                }; 
 
-    return reply(context.response);
+    return reply(body, context.response);
     
 }
