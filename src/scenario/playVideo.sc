@@ -17,10 +17,8 @@ theme: /
         script:
 
             playVideo(script.clip2.videoSrc, $context);
-            $reactions.buttons(script.clip3.question);
+            $reactions.buttons(script.clip3.question, "Выйти"]);
 
-         buttons:
-            "Выйти"
  
  
     state: ЗапускВидеоПогода
@@ -29,10 +27,8 @@ theme: /
         script:
 
             playVideo(script.clip3.videoSrc, $context);
-            $reactions.buttons(script.poster1.question);
+            $reactions.buttons([script.poster1.question, "Выйти"]);
 
-         buttons:
-            "Выйти"
 
     state: ЗапускСлайдБиометрия
         q!:  покажи биометрию
@@ -40,10 +36,8 @@ theme: /
         script:
 
             setPoster(script.poster1.posterSrc, $context);
-            $reactions.buttons(script.poster2.question);
-            
-         buttons:
-            "Выйти"            
+            $reactions.buttons([script.poster2.question, "Выйти"]);
+           
  
     state: ЗапускСлайдГрафик
         q!:  покажи график
@@ -51,10 +45,8 @@ theme: /
         script:
 
             setPoster(script.poster2.posterSrc, $context);
-            $reactions.buttons(script.clip1.question);            
- 
-         buttons:
-            "Выйти"
+            $reactions.buttons([script.clip1.question, "Выйти"]);            
+
             
 
             
