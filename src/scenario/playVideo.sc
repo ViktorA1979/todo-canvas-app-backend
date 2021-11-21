@@ -7,9 +7,9 @@ theme: /
 
             playVideo(script.clip1.videoSrc, $context);
             $reactions.buttons(script.clip2.question);
+            $reactions.buttons("Выйти");
 
-         buttons:
-            "Выйти"
+
 
     state: ЗапускВидеоГород
         q!:  расскажи про город
