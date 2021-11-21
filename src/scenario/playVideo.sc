@@ -17,7 +17,7 @@ theme: /
         script:
 
             playVideo(script.clip2.videoSrc, $context);
-            $reactions.buttons(script.clip3.question, "Выйти"]);
+            $reactions.buttons([script.clip3.question, "Выйти"]);
 
  
  
