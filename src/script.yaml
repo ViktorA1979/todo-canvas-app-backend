@@ -9,7 +9,7 @@ clip3:
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/weather.mp4"
 poster0:
     question: "покажи презентацию"
-    posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/poster.jpeg"
+    posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/poster.png"
 poster1:
     question: "покажи биометрию"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/biometrics.jpeg"
