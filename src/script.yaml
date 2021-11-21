@@ -5,7 +5,7 @@ clip2:
     question: "расскажи про город"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/petersburg.mp4"
 clip3:
-    question: "расскажи про снегопад"
+    question: "расскажи про снег"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/weather.mp4"
 poster0:
     question: "покажи презентацию"
