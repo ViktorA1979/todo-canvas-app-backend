@@ -36,6 +36,7 @@ theme: /
         script:
             log($jsapi.cailaService.getCurrentClassifierToken());
             $temp.appeal = $request.rawRequest.payload.character.appeal;
+            setPoster(script.poster0.posterSrc, $context);
             $reactions.buttons(script.clip1.question);
             
         if: $temp.appeal == "official"
