@@ -36,6 +36,7 @@ theme: /
         script:
             log($jsapi.cailaService.getCurrentClassifierToken());
             $temp.appeal = $request.rawRequest.payload.character.appeal;
+            $reactions.buttons(script.clip1.question);
             
         if: $temp.appeal == "official"
             a: Чем могу помочь
@@ -44,8 +45,6 @@ theme: /
         else:
             a: Чем могу помочь
             
-            $reactions.buttons(script.clip1.question);
-     
         buttons:
             "Выйти"
             
