@@ -1,30 +1,50 @@
 theme: /
 
-    state: ЗапускВидеоТизера
-        q!:  $StartVideo
+    state: ЗапускВидеоСбер
+        q!:  расскажи про сбер
            
-            
         script:
 
             playVideo(script.clip1.videoSrc, $context);
-            
-            $reactions.buttons(script.clip1.question);
-            $reactions.buttons(script.poster1.question);
-        
-     
-    state: ЗапускВидеоТизераРаз
-        q!: (~покажика|покажи клип) 
+            $reactions.buttons(script.clip2.question);
+
+    state: ЗапускВидеоГород
+        q!:  расскажи про город
            
-            
         script:
-        
-            setPoster("https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/foto2.jpeg", $context);
-                 
-        buttons:
-            "Расскажи про новые проекты"
-            "Покажи клип"
-            "Останови видео"
+
+            playVideo(script.clip2.videoSrc, $context);
+            $reactions.buttons(script.clip3.question);
+ 
+ 
+    state: ЗапускВидеоПогода
+        q!:  расскажи про погоду
+           
+        script:
+
+            playVideo(script.clip3.videoSrc, $context);
+            $reactions.buttons(script.poster1.question);
+
+    state: ЗапускСлайдБиометрия
+        q!:  покажи биометрию
+           
+        script:
+
+            setPoster(script.poster1.posterSrc, $context);
+            $reactions.buttons(script.poster2.question);
+ 
+    state: ЗапускСлайдГрафик
+        q!:  покажи график
+           
+        script:
+
+            setPoster(script.poster2.posterSrc, $context);
+            $reactions.buttons(script.poster2.question);            
+ 
+         buttons:
             "Выйти"
+            
+
             
     state: ОстановкаВидеоТизера
         q!: (~останови|Останови видео) 

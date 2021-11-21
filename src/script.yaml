@@ -1,6 +1,18 @@
 clip1:
-    question: "Pасскажи про новые проекты"
-    videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/video1.mp4"
-poster1:
+    question: "расскажи про сбер"
+    videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/sber.mp4"
+clip2:
+    question: "расскажи про город"
+    videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/petersburg.mp4"
+clip3:
+    question: "расскажи про погоду"
+    videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/weather.mp4"
+poster0:
     question: "покажи презентацию"
-    posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/foto2.jpeg"
+    posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/poster.jpeg"
+poster1:
+    question: "покажи биометрию"
+    posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/biometrics.jpeg"
+poster2:
+    question: "покажи график"
+    posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/chart.jpeg"
