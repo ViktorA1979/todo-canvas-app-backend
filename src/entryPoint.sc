@@ -37,7 +37,7 @@ theme: /
             log($jsapi.cailaService.getCurrentClassifierToken());
             $temp.appeal = $request.rawRequest.payload.character.appeal;
             setPoster(script.poster0.posterSrc, $context);
-            $reactions.buttons(script.clip1.question);
+            $reactions.buttons([script.clip1.question, "Выйти"]);
             
         if: $temp.appeal == "official"
             a: Чем могу помочь
@@ -46,8 +46,6 @@ theme: /
         else:
             a: Чем могу помочь
             
-        buttons:
-            "Выйти"
             
         
     state: Fallback
