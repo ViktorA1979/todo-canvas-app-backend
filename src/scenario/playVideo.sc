@@ -47,7 +47,13 @@ theme: /
             setPoster(script.poster2.posterSrc, $context);
             $reactions.buttons([script.clip1.question, "Выйти"]);            
 
-            
+    state: ЗапускПостер
+        q!:  покажи постер
+           
+        script:
+
+            setPoster(script.poster0.posterSrc, $context);
+            $reactions.buttons([script.clip1.question, "Выйти"]);              
 
             
     state: ОстановкаВидеоТизера
