@@ -44,12 +44,9 @@ theme: /
         else:
             a: Чем могу помочь
             
-        
+            $reactions.buttons(script.clip1.question);
      
         buttons:
-            "Расскажи про новые проекты"
-            "Покажи клип"
-            "Останови видео"
             "Выйти"
             
         
