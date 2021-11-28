@@ -9,7 +9,9 @@
     "spellingCorrection" : false,
     "classificationAlgorithm" : "sts",
     "timezone" : "UTC",
-    "shared" : false
+    "shared" : false,
+    "businessShared" : false,
+    "business" : false
   },
   "intents" : [ ],
   "entities" : [ ],
