@@ -3,8 +3,9 @@ clip1:
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideo1.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimg1.mp4"
 clip2:
-    question: "расскажи про город"
-    videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/petersburg.mp4"
+    question: "Покажи зеленый банк в Европе"
+    videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideo2.mp4"
+    posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimg2.mp4"
 clip3:
     question: "расскажи про снег"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/weather.mp4"
