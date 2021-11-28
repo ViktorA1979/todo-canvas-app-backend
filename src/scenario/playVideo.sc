@@ -5,29 +5,10 @@ theme: /
            
         script:
 
-            playVideo(script.clip1.videoSrc, $context);
+            playVideo(script.clip1.videoSrc, script.clip1.posterSrc, $context);
             $reactions.buttons([script.clip2.question, "Выйти"]);
             
 
-
-
-    state: ЗапускВидеоГород
-        q!:  расскажи про город
-           
-        script:
-
-            playVideo(script.clip2.videoSrc, $context);
-            $reactions.buttons([script.clip3.question, "Выйти"]);
-
- 
- 
-    state: ЗапускВидеоПогода
-        q!:  расскажи про снег
-           
-        script:
-
-            playVideo(script.clip3.videoSrc, $context);
-            $reactions.buttons([script.poster1.question, "Выйти"]);
 
 
     state: ЗапускСлайдБиометрия

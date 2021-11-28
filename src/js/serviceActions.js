@@ -10,7 +10,7 @@
    
 }
 
-function playVideo(vsrc, context) {
+function playVideo(vsrc,psrc, context) {
     
     var body = {
         items:[{
@@ -20,7 +20,7 @@ function playVideo(vsrc, context) {
                     type: "play_video", 
                     clip:{
                         srcVideo: vsrc,
-                        srcPoster: "",
+                        srcPoster: psrc,
                         isPlay: true
                         }
                 }
