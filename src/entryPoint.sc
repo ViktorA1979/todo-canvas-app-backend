@@ -50,7 +50,9 @@ theme: /
         
     state: Fallback
         event!: noMatch
+        
+            $reactions.buttons([script.clip1.question, "Выйти"]);
+        
         a: Я не понимаю.
     
-        buttons:
-            $reactions.buttons([script.clip1.question, "Выйти"]);
+            
