@@ -53,5 +53,4 @@ theme: /
         a: Я не понимаю.
     
         buttons:
-            "Расскажи про сбер"
-            "Выйти"
+            $reactions.buttons([script.clip1.question, "Выйти"]);
