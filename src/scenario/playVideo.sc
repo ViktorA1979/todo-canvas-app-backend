@@ -16,7 +16,7 @@ theme: /
             
 
     state: ЗапускВидео2
-        q!: $ESG1 
+        q!: $ESG2 
            
         script:
 
