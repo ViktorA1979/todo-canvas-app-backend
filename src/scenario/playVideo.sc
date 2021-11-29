@@ -1,6 +1,6 @@
 patterns:
-        $<pattern name> = (pattern body | multiline body)
-        $<pattern name> = (pattern body) || converter=nameConverter
+        ESG = (esg)
+       
 
 
 theme: /
