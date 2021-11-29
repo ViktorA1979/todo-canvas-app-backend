@@ -1,5 +1,5 @@
 patterns:
-        ESG = (esg)
+        $ESG = (esg)
        
 
 
