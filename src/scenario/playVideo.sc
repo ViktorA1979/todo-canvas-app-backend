@@ -36,7 +36,7 @@ patterns:
 
 theme: /
 
-    state: ЗапускВидео1
+    state: ЗапускВидеоDBK
         q!:  $DBK
        
            
