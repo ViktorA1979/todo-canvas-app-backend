@@ -37,7 +37,7 @@ theme: /
             log($jsapi.cailaService.getCurrentClassifierToken());
             $temp.appeal = $request.rawRequest.payload.character.appeal;
            
-            $reactions.buttons([script.clip1.question, "Выйти"]);
+            $reactions.buttons([script.Q1.question, "Выйти"]);
             
         if: $temp.appeal == "official"
             a: Чем могу помочь
@@ -51,7 +51,7 @@ theme: /
     state: Fallback
         event!: noMatch
         script:
-            $reactions.buttons([script.clip1.question, "Выйти"]);
+            $reactions.buttons([script.Q1.question, "Выйти"]);
         
         a: Я не понимаю.
     
