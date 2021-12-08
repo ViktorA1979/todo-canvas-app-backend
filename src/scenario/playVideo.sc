@@ -51,8 +51,8 @@ theme: /
            
         script:
 
-            playVideo(script.Q1.videoSrc, script.Q1.posterSrc, $context);
-            $reactions.buttons([script.Q2.question, "Выйти"]);
+            playVideo(script.q1.videoSrc, script.q1.posterSrc, $context);
+            $reactions.buttons([script.q2.question, "Выйти"]);
             
             
     state: ЗапускВидеоQ2
@@ -60,16 +60,16 @@ theme: /
            
         script:
 
-            playVideo(script.Q2.videoSrc, script.Q2.posterSrc, $context);
-            $reactions.buttons([script.Q3.question, "Выйти"]);
+            playVideo(script.q2.videoSrc, script.q2.posterSrc, $context);
+            $reactions.buttons([script.q3.question, "Выйти"]);
 
     state: ЗапускВидеоQ3
         q!: $Q3 
            
         script:
 
-            playVideo(script.Q3.videoSrc, script.Q3.posterSrc, $context);
-            $reactions.buttons([script.Q4.question, "Выйти"]);
+            playVideo(script.q3.videoSrc, script.q3.posterSrc, $context);
+            $reactions.buttons([script.q4.question, "Выйти"]);
             
             
     state: ЗапускВидеоQ4
@@ -77,16 +77,16 @@ theme: /
            
         script:
 
-            playVideo(script.Q4.videoSrc, script.Q4.posterSrc, $context);
-            $reactions.buttons([script.Q5.question, "Выйти"]);
+            playVideo(script.q4.videoSrc, script.q4.posterSrc, $context);
+            $reactions.buttons([script.q5.question, "Выйти"]);
 
     state: ЗапускВидеоQ5
         q!: $Q5
            
         script:
 
-            playVideo(script.Q5.videoSrc, script.Q5.posterSrc, $context);
-            $reactions.buttons([script.Q6.question, "Выйти"]);
+            playVideo(script.q5.videoSrc, script.q5.posterSrc, $context);
+            $reactions.buttons([script.q6.question, "Выйти"]);
             
             
     state: ЗапускВидеоQ6
@@ -94,15 +94,15 @@ theme: /
            
         script:
 
-            playVideo(script.Q6.videoSrc, script.Q6.posterSrc, $context);
-            $reactions.buttons([script.Q7.question, "Выйти"]);
+            playVideo(script.q6.videoSrc, script.q6.posterSrc, $context);
+            $reactions.buttons([script.q7.question, "Выйти"]);
 
     state: ЗапускВидеоQ7
         q!: $Q7
            
         script:
 
-            playVideo(script.Q7.videoSrc, script.Q7.posterSrc, $context);
+            playVideo(script.q7.videoSrc, script.q7.posterSrc, $context);
             $reactions.buttons([script.clip1.question, "Выйти"]);
             
             
@@ -111,16 +111,16 @@ theme: /
            
         script:
 
-            playVideo(script.Q8.videoSrc, script.Q8.posterSrc, $context);
-            $reactions.buttons([script.Q9.question, "Выйти"]);
+            playVideo(script.q8.videoSrc, script.q8.posterSrc, $context);
+            $reactions.buttons([script.q9.question, "Выйти"]);
             
     state: ЗапускВидеоQ9
         q!: $Q9
            
         script:
 
-            playVideo(script.Q9.videoSrc, script.Q9.posterSrc, $context);
-            $reactions.buttons([script.Q10.question, "Выйти"]);
+            playVideo(script.q9.videoSrc, script.q9.posterSrc, $context);
+            $reactions.buttons([script.q10.question, "Выйти"]);
             
             
     state: ЗапускВидеоQ10
@@ -128,16 +128,16 @@ theme: /
            
         script:
 
-            playVideo(script.Q10.videoSrc, script.Q10.posterSrc, $context);
-            $reactions.buttons([script.Q11.question, "Выйти"]);
+            playVideo(script.q10.videoSrc, script.q10.posterSrc, $context);
+            $reactions.buttons([script.q11.question, "Выйти"]);
 
     state: ЗапускВидеоQ11
         q!: $Q11 
            
         script:
 
-            playVideo(script.Q11.videoSrc, script.Q11.posterSrc, $context);
-            $reactions.buttons([script.Q12.question, "Выйти"]);
+            playVideo(script.q11.videoSrc, script.q11.posterSrc, $context);
+            $reactions.buttons([script.q12.question, "Выйти"]);
             
             
     state: ЗапускВидеоQ12
@@ -145,16 +145,16 @@ theme: /
            
         script:
 
-            playVideo(script.Q12.videoSrc, script.Q12.posterSrc, $context);
-            $reactions.buttons([script.Q1.question, "Выйти"]);
+            playVideo(script.q12.videoSrc, script.q12.posterSrc, $context);
+            $reactions.buttons([script.q1.question, "Выйти"]);
             
     state: ЗапускВидеоQ13
         q!: $Q13
            
         script:
 
-            playVideo(script.Q13.videoSrc, script.Q13.posterSrc, $context);
-            $reactions.buttons([script.Q13.question, "Выйти"]);           
+            playVideo(script.q13.videoSrc, script.q13.posterSrc, $context);
+            $reactions.buttons([script.q13.question, "Выйти"]);           
   
             
             
@@ -164,7 +164,7 @@ theme: /
         script:
 
             playVideo(script.clip2.videoSrc, script.clip2.posterSrc, $context);
-            $reactions.buttons([script.Q8.question, "Выйти"]);
+            $reactions.buttons([script.q8.question, "Выйти"]);
 
 
     state: ЗапускСлайдБиометрия
