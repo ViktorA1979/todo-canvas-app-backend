@@ -43,7 +43,7 @@ theme: /
         script:
 
             playVideo(script.clip1.videoSrc, script.clip1.posterSrc, $context);
-            $reactions.buttons([script.clip2.question, "Выйти"]);
+            $reactions.buttons([script.q8.question, "Выйти"]);
             
 
     state: ЗапускВидеоQ1
@@ -164,7 +164,7 @@ theme: /
         script:
 
             playVideo(script.clip2.videoSrc, script.clip2.posterSrc, $context);
-            $reactions.buttons([script.q8.question, "Выйти"]);
+            $reactions.buttons([script.clip1.question, "Выйти"]);
 
 
     state: ЗапускСлайдБиометрия
