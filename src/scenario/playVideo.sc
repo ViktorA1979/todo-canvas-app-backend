@@ -36,6 +36,21 @@ patterns:
 
 theme: /
 
+    state: ЗапускВидео
+        q!:  (запуст*|старт*|игра*)
+       
+        script:
+            playVideo("play", "", $context);
+            
+            
+    state: ПаузаВидео
+        q!:  (стоп*|останов*|пауз*)
+       
+        script:
+            playVideo("pause", "", $context);
+            
+            
+
     state: ЗапускВидеоDBK
         q!:  $DBK
        
