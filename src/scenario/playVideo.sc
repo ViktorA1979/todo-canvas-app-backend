@@ -41,16 +41,26 @@ theme: /
        
         script:
             playVideo("play", "", $context);
-            
+ 
             
     state: ПаузаВидео
         q!:  (стоп*|останов*|пауз*)
        
         script:
             playVideo("pause", "", $context);
-            
-            
 
+    state: СвернутьВидео
+        q!:  (сверн*|уменьш*)
+       
+        script:
+            playVideo("doun", "", $context);            
+            
+    state: РазвернутьВидео
+        q!:  (разверн*|раскр*|на весь экран|увелич*)
+       
+        script:
+            playVideo("up", "", $context);    
+            
     state: ЗапускВидеоDBK
         q!:  $DBK
        
