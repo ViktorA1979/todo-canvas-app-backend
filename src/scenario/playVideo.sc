@@ -175,8 +175,8 @@ theme: /
 
             playVideo(script.q13.videoSrc, script.q13.posterSrc, $context);
             $reactions.buttons([script.q1.question, "Выйти"]);           
- 
-     state: ЗапускВидеоQ14
+    
+    state: ЗапускВидеоQ14
         q!: $Q14
            
         script:
