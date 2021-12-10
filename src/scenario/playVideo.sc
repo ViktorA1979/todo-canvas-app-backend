@@ -2,7 +2,7 @@ patterns:
         
         $ESG =  {* (Герман* | Европ*) * ((ESG | и эс джи | еэс джи) | ((зелен*|green|грин|грим) (банк*|бэнк*|bank*|продукт*))) *} 
         
-        $DBK = {* (Digital|дигит*|диджит*|цифров*|прилож*|нео|необанк*) * [банк*] * (Герман* | Европ*) *}
+        $DBK = {* покаж* (Digital|дигит*|диджит*|цифров*|прилож*|нео банк*|необанк*)  * (Герман* | Европ*) *}
         
         $Q1 = {* результат* * (междунар* | SBI | sberbank international | сбербанк international) * блок* *}
         
@@ -18,17 +18,19 @@ patterns:
         
         $Q7 = {* работ* * проблемн* задолж* *}
         
-        $Q8 = {* развит* * экосист* *}
+        $Q8 = {* расскаж* * (необанк*|нео банк*) * (герман*|европ*) *}
         
-        $Q9 = {* цифров* * трансформ* *}
+        $Q9 = {* развит* * экосист* *}
         
-        $Q10 = {* работ* * други* *}
+        $Q10 = {* цифров* * трансформ* *}
         
-        $Q11 = {* наград* *}
+        $Q11 = {* работ* * други* *}
         
-        $Q12 = {* внедр* * экосист* *}
+        $Q12 = {* наград* *}
         
-        $Q13 = {* результат* * [ДБ|дочерн* банк*] * СНГ *}
+        $Q13 = {* внедр* * экосист* *}
+        
+        $Q14 = {* результат* * [ДБ|дочерн* банк*] * СНГ *}
         
         
         
@@ -61,14 +63,7 @@ theme: /
         script:
             playVideo("up", "", $context);    
             
-    state: ЗапускВидеоDBK
-        q!:  $DBK
-       
-           
-        script:
 
-            playVideo(script.clip1.videoSrc, script.clip1.posterSrc, $context);
-            $reactions.buttons([script.q8.question, "Выйти"]);
             
 
     state: ЗапускВидеоQ1
@@ -128,7 +123,7 @@ theme: /
         script:
 
             playVideo(script.q7.videoSrc, script.q7.posterSrc, $context);
-            $reactions.buttons([script.clip1.question, "Выйти"]);
+            $reactions.buttons([script.q8.question, "Выйти"]);
             
             
     state: ЗапускВидеоQ8
@@ -171,7 +166,7 @@ theme: /
         script:
 
             playVideo(script.q12.videoSrc, script.q12.posterSrc, $context);
-            $reactions.buttons([script.q1.question, "Выйти"]);
+            $reactions.buttons([script.q13.question, "Выйти"]);
             
     state: ЗапускВидеоQ13
         q!: $Q13
@@ -179,8 +174,15 @@ theme: /
         script:
 
             playVideo(script.q13.videoSrc, script.q13.posterSrc, $context);
-            $reactions.buttons([script.q13.question, "Выйти"]);           
-  
+            $reactions.buttons([script.q1.question, "Выйти"]);           
+ 
+     state: ЗапускВидеоQ14
+        q!: $Q14
+           
+        script:
+
+            playVideo(script.q14.videoSrc, script.q14.posterSrc, $context);
+            $reactions.buttons([script.q14.question, "Выйти"]);           
             
             
     state: ЗапускВидеоESG
@@ -190,24 +192,15 @@ theme: /
 
             playVideo(script.clip2.videoSrc, script.clip2.posterSrc, $context);
             $reactions.buttons([script.clip1.question, "Выйти"]);
-
-
-    state: ЗапускСлайдБиометрия
-        q!:  покажи биометрию
-           
+            
+    state: ЗапускВидеоDBK
+        q!:  $DBK
+       
         script:
 
-            setPoster(script.poster1.posterSrc, $context);
-            $reactions.buttons([script.poster2.question, "Выйти"]);
-           
- 
-    state: ЗапускСлайдГрафик
-        q!:  покажи график
-           
-        script:
+            playVideo(script.clip1.videoSrc, script.clip1.posterSrc, $context);
+            $reactions.buttons([script.clip2.question, "Выйти"]);
 
-            setPoster(script.poster2.posterSrc, $context);
-            $reactions.buttons([script.clip1.question, "Выйти"]);            
 
     state: ЗапускПостер
         q!:  покажи постер
@@ -216,35 +209,3 @@ theme: /
 
             setPoster(script.poster0.posterSrc, $context);
             $reactions.buttons([script.clip1.question, "Выйти"]);              
-
-            
-    state: ОстановкаВидеоТизера
-        q!: (~останови|Останови видео) 
-           
-            
-        script:
-        
-        
-            $response.replies = $response.replies || [];
-                
-                var body = {
-                    items:[{
-                        command:{
-                            type: "smart_app_data",
-                            action :{
-                                type: "stop_video", 
-                                clip:{
-                                    id: "video1",
-                                    isPlay: false
-                                    }
-                            }
-                        }
-                    }]
-                }; 
-                
-                $response.replies.push({ type : "raw", body: body});      
-            
-            
-        buttons:
-            "Выйти"
-            
