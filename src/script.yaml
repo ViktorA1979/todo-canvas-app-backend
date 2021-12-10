@@ -29,31 +29,31 @@ q1:
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ1.jpeg"
     
 q2:
-    name:"Расскажи про результаты дочернего банка в Казахстане"
+    name: "Расскажи про результаты дочернего банка в Казахстане"
     question: "Расскажи o результатах в Казахстане"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ2.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ2.jpeg"
     
 q3:
-    name:"Расскажи про результаты дочернего банка в Беларуси"
+    name: "Расскажи про результаты дочернего банка в Беларуси"
     question: "Расскажи o результатах в Беларуси"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ3.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ3.jpeg"
     
 q4:
-    name:"Расскажи про достижения в ДБ Казахстане и Беларуси"
+    name: "Расскажи про достижения в ДБ Казахстане и Беларуси"
     question: "Расскажи про достижения в ДБ Казахстане и Беларуси"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ4.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ4.jpeg"
     
 q5:
-    name:"Расскажи про результаты в Украине"
+    name: "Расскажи про результаты в Украине"
     question: "Расскажи o результатах в Украине"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ5.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ5.jpeg"
     
 q6:
-    name:"Расскажи про развитие трансграничного бизнеса"
+    name: "Расскажи про развитие трансграничного бизнеса"
     question: "Расскажи про развитие трансграничного бизнеса"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ6.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ6.jpeg"
@@ -65,13 +65,13 @@ q7:
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ7.jpeg"
 
 q8:
-    name:"Расскажи про работу с проблемной задолженностью"
+    name: "Расскажи про работу с проблемной задолженностью"
     question: "Расскажи про Необанк в Германии"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ8.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ8.jpeg"    
 
 q9:
-    name:"Расскажи про развитие экосистемных сервисов"
+    name: "Расскажи про развитие экосистемных сервисов"
     question: "Расскажи про развитие экосистемных сервисов"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ9.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ9.jpeg"
@@ -79,31 +79,31 @@ q9:
 
     
 q10:
-    name:"Расскажи про цифровую трансформацию"
+    name: "Расскажи про цифровую трансформацию"
     question: "Расскажи про цифровую трансформацию"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ10.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ10.jpeg"
     
 q11:
-    name:"Расскажи про работу по другим направлениям"
+    name: "Расскажи про работу по другим направлениям"
     question: "Расскажи про работу по другим направлениям"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ11.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ11.jpeg"
     
 q12:
-    name:"Расскажи про полученные награды"
+    name: "Расскажи про полученные награды"
     question: "Расскажи про полученные награды"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ12.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ12.jpeg"
     
 q13:
-    name:"Расскажи про внедрение экосистемы"
+    name: "Расскажи про внедрение экосистемы"
     question: "Расскажи про внедрение экосистемы"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ13.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ13.jpeg"
     
 q14:
-    name:"Расскажи про результаты ДБ СНГ"
+    name: "Расскажи про результаты ДБ СНГ"
     question: "Расскажи про результаты ДБ СНГ"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ14.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ14.jpeg"
