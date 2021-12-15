@@ -59,13 +59,13 @@ q6:
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ6.jpeg"
     
 q7:
-    name:
+    name: "Расскажи про работу с проблемной задолженностью"
     question: "Расскажи про работу с проблемной задолженностью"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ7.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ7.jpeg"
 
 q8:
-    name: "Расскажи про работу с проблемной задолженностью"
+    name: "Расскажи про Необанк в Германии"
     question: "Расскажи про Необанк в Германии"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ8.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ8.jpeg"    
@@ -108,3 +108,8 @@ q14:
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ14.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ14.jpeg"
     
+q15:
+    name: "Покажи итоги работы международного блока"
+    question: "Покажи итоги работы международного блока"
+    videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ15.mp4"
+    posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ15.jpeg"
