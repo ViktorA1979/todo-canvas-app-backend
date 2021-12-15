@@ -238,7 +238,7 @@ state: ЗапускПостерQ18
             setPoster(script.q18.posterSrc, $context);
             $reactions.buttons([script.q16.question, "Выйти"]);   
             
-    state: ЗапускПостер
+state: ЗапускПостер
         q!:  покажи постер
            
         script:
