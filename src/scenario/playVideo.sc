@@ -220,7 +220,23 @@ theme: /
         script:
 
             setPoster(script.q16.posterSrc, $context);
-            $reactions.buttons([script.clip1.question, "Выйти"]);              
+            $reactions.buttons([script.q17.question, "Выйти"]);    
+            
+state: ЗапускПостерQ17
+        q!:  $Q17
+           
+        script:
+
+            setPoster(script.q17.posterSrc, $context);
+            $reactions.buttons([script.q18.question, "Выйти"]);   
+            
+state: ЗапускПостерQ18
+        q!:  $Q18
+           
+        script:
+
+            setPoster(script.q18.posterSrc, $context);
+            $reactions.buttons([script.q16.question, "Выйти"]);   
             
     state: ЗапускПостер
         q!:  покажи постер
