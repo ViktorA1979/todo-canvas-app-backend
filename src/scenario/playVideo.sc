@@ -222,7 +222,7 @@ theme: /
             setPoster(script.poster0.posterSrc, $context);
             $reactions.buttons([script.clip1.question, "Выйти"]);              
             
-state: ЗапускПостер
+    state: ЗапускПостер
         q!:  покажи постер
            
         script:
