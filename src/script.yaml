@@ -119,3 +119,15 @@ q16:
     question: "Покажи прибыль в Казахстане"
     videoSrc: ""
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ16.jpeg"
+    
+q17:
+    name: "Покажи прибыль в Беларуси"
+    question: "Покажи прибыль в Беларуси"
+    videoSrc: ""
+    posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ17.jpeg"
+    
+q18:
+    name: "Расскажи про дивиденды в Беларуси Казахстане"
+    question: "Расскажи про дивиденды в Беларуси"
+    videoSrc: ""
+    posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ18.jpeg"
