@@ -32,6 +32,8 @@ patterns:
         
         $Q14 = {* результат* * [ДБ|дочерн* банк*] * СНГ *}
         
+        $Q15 = {* итог* * работ* * международн* блок* *}
+        
         
         
 
@@ -183,6 +185,14 @@ theme: /
 
             playVideo(script.q14.videoSrc, script.q14.posterSrc, $context);
             $reactions.buttons([script.q14.question, "Выйти"]);           
+
+    state: ЗапускВидеоQ15
+        q!: $Q15
+           
+        script:
+
+            playVideo(script.q15.videoSrc, script.q15.posterSrc, $context);
+            $reactions.buttons([script.q1.question, "Выйти"]);   
             
             
     state: ЗапускВидеоESG
