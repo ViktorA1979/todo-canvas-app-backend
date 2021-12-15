@@ -34,7 +34,11 @@ patterns:
         
         $Q15 = {* итог* * работ* * международн* блок* *}
         
+        $Q16 = {* (ROE | приб* | опердох* | CIR | ЧКД | (колич* клиент*)) * казахст* *}
         
+        $Q17 = {* (ROE | приб* | опердох* | CIR | ЧКД | (колич* клиент*)) * (беларус*|белорус*) *}
+        
+        $Q18 = {* дивид* * ( беларус* | белорус* | казахст*) * }
 
 theme: /
 
@@ -210,10 +214,18 @@ theme: /
             $reactions.buttons([script.clip2.question, "Выйти"]);
 
 
-    state: ЗапускПостер
-        q!:  покажи постер
+    state: ЗапускПостерQ16
+        q!:  $Q16
            
         script:
 
             setPoster(script.poster0.posterSrc, $context);
             $reactions.buttons([script.clip1.question, "Выйти"]);              
+            
+state: ЗапускПостер
+        q!:  покажи постер
+           
+        script:
+
+            setPoster(script.poster0.posterSrc, $context);
+            $reactions.buttons([script.clip1.question, "Выйти"]);     

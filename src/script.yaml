@@ -113,3 +113,9 @@ q15:
     question: "Покажи итоги работы международного блока"
     videoSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMvideoQ15.mp4"
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ15.jpeg"
+    
+q16:
+    name: "Покажи прибыль в Казахстане"
+    question: "Покажи прибыль в Казахстане"
+    videoSrc: ""
+    posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ16.jpeg"
