@@ -170,12 +170,12 @@ theme: /
         
         if: $session.videoSrc === script.q12.videoSrc
             script: 
-                $reactions.buttons([ $session.videoSrc]);
+                
         else:
             script:   
                 playVideo(script.q12.videoSrc, script.q12.posterSrc, $context);
                 
-                $reactions.buttons([ "Выйти"]);
+                $reactions.buttons([script.q13.videoSrc, "Выйти"]);
                 $session.videoSrc =  script.q12.videoSrc; 
                 
             
