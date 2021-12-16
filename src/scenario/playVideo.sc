@@ -168,10 +168,9 @@ theme: /
         else:
             script:   
      
-            
                 playVideo(script.q8.videoSrc, script.q8.posterSrc, $context);
-           //$reactions.buttons([script.q9.question, "Выйти"]);
-                $session.videoSrc =  script.q8.videoSrc
+                //$reactions.buttons([script.q9.question, "Выйти"]);
+                $session.videoSrc =  script.q8.videoSrc;
             
     state: ЗапускВидеоQ9
         q!: $Q9
@@ -183,7 +182,7 @@ theme: /
   
                 playVideo(script.q9.videoSrc, script.q9.posterSrc, $context);
            // $reactions.buttons([script.q10.question, "Выйти"]);
-                $session.videoSrc =  script.q9.videoSrc
+                $session.videoSrc =  script.q9.videoSrc;
             
             
     state: ЗапускВидеоQ10
@@ -197,7 +196,7 @@ theme: /
 
                 playVideo(script.q10.videoSrc, script.q10.posterSrc, $context);
             //$reactions.buttons([script.q11.question, "Выйти"]);
-                $session.videoSrc =  script.q10.videoSrc
+                $session.videoSrc =  script.q10.videoSrc;
 
     state: ЗапускВидеоQ11
         q!: $Q11 
@@ -210,7 +209,7 @@ theme: /
 
                 playVideo(script.q11.videoSrc, script.q11.posterSrc, $context);
             //$reactions.buttons([script.q12.question, "Выйти"]);
-                $session.videoSrc =  script.q11.videoSrc
+                $session.videoSrc =  script.q11.videoSrc;
             
             
     state: ЗапускВидеоQ12
@@ -238,7 +237,7 @@ theme: /
 
                 playVideo(script.q13.videoSrc, script.q13.posterSrc, $context);
            // $reactions.buttons([script.q1.question, "Выйти"]);  
-                $session.videoSrc =  script.q13.videoSrc
+                $session.videoSrc =  script.q13.videoSrc;
     
     state: ЗапускВидеоQ14
         q!: $Q14
@@ -251,7 +250,7 @@ theme: /
 
                 playVideo(script.q14.videoSrc, script.q14.posterSrc, $context);
            // $reactions.buttons([script.q14.question, "Выйти"]);   
-                $session.videoSrc =  script.q14.videoSrc
+                $session.videoSrc =  script.q14.videoSrc;
 
     state: ЗапускВидеоQ15
         q!: $Q15
@@ -264,7 +263,7 @@ theme: /
 
                 playVideo(script.q15.videoSrc, script.q15.posterSrc, $context);
             //$reactions.buttons([script.q1.question, "Выйти"]);
-                $session.videoSrc =  script.q15.videoSrc
+                $session.videoSrc =  script.q15.videoSrc;
             
             
     state: ЗапускВидеоESG
@@ -278,7 +277,7 @@ theme: /
 
                 playVideo(script.clip2.videoSrc, script.clip2.posterSrc, $context);
             //$reactions.buttons([script.clip1.question, "Выйти"]);
-                $session.videoSrc =  script.clip2.videoSrc
+                $session.videoSrc =  script.clip2.videoSrc;
             
     state: ЗапускВидеоDBK
         q!:  $DBK
@@ -291,7 +290,7 @@ theme: /
 
                 playVideo(script.clip1.videoSrc, script.clip1.posterSrc, $context);
             //$reactions.buttons([script.clip2.question, "Выйти"]);
-                $session.videoSrc =  script.clip1.videoSrc
+                $session.videoSrc =  script.clip1.videoSrc;
 
 
     state: ЗапускПостерQ16
