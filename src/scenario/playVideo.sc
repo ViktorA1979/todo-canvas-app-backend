@@ -85,7 +85,7 @@ theme: /
         script:
 
             playVideo(script.q2.videoSrc, script.q2.posterSrc, $context);
-            $reactions.buttons([script.q3.question, "Выйти"]);
+            //$reactions.buttons([script.q3.question, "Выйти"]);
 
     state: ЗапускВидеоQ3
         q!: $Q3 
