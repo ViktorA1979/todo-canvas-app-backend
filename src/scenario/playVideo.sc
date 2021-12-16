@@ -91,7 +91,7 @@ theme: /
             script:  
 
                 playVideo(script.q2.videoSrc, script.q2.posterSrc, $context);
-            //$reactions.buttons([script.q3.question, "Выйти"]);
+                //$reactions.buttons([script.q3.question, "Выйти"]);
                 $session.videoSrc =  script.q2.videoSrc
                 
     state: ЗапускВидеоQ3
@@ -104,7 +104,7 @@ theme: /
  
 
                 playVideo(script.q3.videoSrc, script.q3.posterSrc, $context);
-            //$reactions.buttons([script.q4.question, "Выйти"]);
+                //$reactions.buttons([script.q4.question, "Выйти"]);
                 $session.videoSrc =  script.q3.videoSrc
             
             
@@ -117,7 +117,7 @@ theme: /
             script:   
       
                 playVideo(script.q4.videoSrc, script.q4.posterSrc, $context);
-            //$reactions.buttons([script.q5.question, "Выйти"]);
+                //$reactions.buttons([script.q5.question, "Выйти"]);
                 $session.videoSrc =  script.q4.videoSrc
 
     state: ЗапускВидеоQ5
@@ -129,7 +129,7 @@ theme: /
             script:   
        
                 playVideo(script.q5.videoSrc, script.q5.posterSrc, $context);
-            //$reactions.buttons([script.q6.question, "Выйти"]);
+                //$reactions.buttons([script.q6.question, "Выйти"]);
                 $session.videoSrc =  script.q5.videoSrc; 
 
             
@@ -143,7 +143,7 @@ theme: /
             script:   
 
                 playVideo(script.q6.videoSrc, script.q6.posterSrc, $context);
-            //$reactions.buttons([script.q7.question, "Выйти"]);
+                //$reactions.buttons([script.q7.question, "Выйти"]);
                 $session.videoSrc =  script.q6.videoSrc
 
     state: ЗапускВидеоQ7
@@ -156,7 +156,7 @@ theme: /
     
 
                 playVideo(script.q7.videoSrc, script.q7.posterSrc, $context);
-            //$reactions.buttons([script.q8.question, "Выйти"]);
+                //$reactions.buttons([script.q8.question, "Выйти"]);
                 $session.videoSrc =  script.q7.videoSrc
             
             
