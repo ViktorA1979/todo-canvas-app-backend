@@ -167,11 +167,11 @@ theme: /
     state: ЗапускВидеоQ12
         q!: $Q12 
         
-        
-        script:   
-            playVideo(script.q12.videoSrc, script.q12.posterSrc, $context);
-            $temp.videoSrc =  script.q8.videoSrc; 
-            $reactions.buttons([script.q13.question, "Выйти"]);
+        if: script.qCurrent.videoSrc != script.q8.videoSrc
+            script:   
+                playVideo(script.q12.videoSrc, script.q12.posterSrc, $context);
+                $temp.videoSrc =  script.q8.videoSrc; 
+                $reactions.buttons([script.q13.question, "Выйти"]);
             
     state: ЗапускВидеоQ13
         q!: $Q13
