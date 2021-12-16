@@ -168,7 +168,7 @@ theme: /
         q!: $Q12 
            
         script:
-            if: script.qCurrent.videoSrc = script.q8.videoSrc
+            if: script.qCurrent.videoSrc == script.q8.videoSrc
                 
             else:
                
