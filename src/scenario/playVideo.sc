@@ -169,7 +169,7 @@ theme: /
         
         script:   
             playVideo(script.q12.videoSrc, script.q12.posterSrc, $context);
-            $reactions.buttons([$session.videoSrc, "Выйти"]);
+            $reactions.buttons([ "Выйти"]);
             $session.videoSrc =  script.q12.videoSrc; 
                 
             
