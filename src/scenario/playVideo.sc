@@ -134,7 +134,7 @@ theme: /
         q!: $Q8
            
         script:
-
+            script.qCurrent.videoSrc = script.q8.videoSrc; 
             playVideo(script.q8.videoSrc, script.q8.posterSrc, $context);
             $reactions.buttons([script.q9.question, "Выйти"]);
             
