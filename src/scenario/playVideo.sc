@@ -170,7 +170,7 @@ theme: /
      
             
                 playVideo(script.q8.videoSrc, script.q8.posterSrc, $context);
-           // $reactions.buttons([script.q9.question, "Выйти"]);
+           //$reactions.buttons([script.q9.question, "Выйти"]);
                 $session.videoSrc =  script.q8.videoSrc
             
     state: ЗапускВидеоQ9
@@ -291,7 +291,7 @@ theme: /
 
                 playVideo(script.clip1.videoSrc, script.clip1.posterSrc, $context);
             //$reactions.buttons([script.clip2.question, "Выйти"]);
-            $session.videoSrc =  script.clip1.videoSrc
+                $session.videoSrc =  script.clip1.videoSrc
 
 
     state: ЗапускПостерQ16
