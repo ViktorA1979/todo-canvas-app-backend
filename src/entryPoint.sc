@@ -38,6 +38,7 @@ theme: /
             $temp.appeal = $request.rawRequest.payload.character.appeal;
            
             $reactions.buttons([script.q1.question, "Выйти"]);
+            $session.videoSrc = "";
             
         if: $temp.appeal == "official"
             a: Чем могу помочь
