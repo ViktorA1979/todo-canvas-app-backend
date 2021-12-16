@@ -236,7 +236,7 @@ theme: /
         
 
                 playVideo(script.q13.videoSrc, script.q13.posterSrc, $context);
-           // $reactions.buttons([script.q1.question, "Выйти"]);  
+                // $reactions.buttons([script.q1.question, "Выйти"]);  
                 $session.videoSrc =  script.q13.videoSrc;
     
     state: ЗапускВидеоQ14
@@ -249,7 +249,7 @@ theme: /
         
 
                 playVideo(script.q14.videoSrc, script.q14.posterSrc, $context);
-           // $reactions.buttons([script.q14.question, "Выйти"]);   
+                // $reactions.buttons([script.q14.question, "Выйти"]);   
                 $session.videoSrc =  script.q14.videoSrc;
 
     state: ЗапускВидеоQ15
@@ -262,7 +262,7 @@ theme: /
       
 
                 playVideo(script.q15.videoSrc, script.q15.posterSrc, $context);
-            //$reactions.buttons([script.q1.question, "Выйти"]);
+                //$reactions.buttons([script.q1.question, "Выйти"]);
                 $session.videoSrc =  script.q15.videoSrc;
             
             
@@ -276,7 +276,7 @@ theme: /
        
 
                 playVideo(script.clip2.videoSrc, script.clip2.posterSrc, $context);
-            //$reactions.buttons([script.clip1.question, "Выйти"]);
+                //$reactions.buttons([script.clip1.question, "Выйти"]);
                 $session.videoSrc =  script.clip2.videoSrc;
             
     state: ЗапускВидеоDBK
@@ -289,7 +289,7 @@ theme: /
         
 
                 playVideo(script.clip1.videoSrc, script.clip1.posterSrc, $context);
-            //$reactions.buttons([script.clip2.question, "Выйти"]);
+                //$reactions.buttons([script.clip2.question, "Выйти"]);
                 $session.videoSrc =  script.clip1.videoSrc;
 
 
