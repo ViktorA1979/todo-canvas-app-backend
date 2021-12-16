@@ -167,7 +167,7 @@ theme: /
     state: ЗапускВидеоQ12
         q!: $Q12 
         
-        if: !script.qCurrent.videoSrc == script.q8.videoSrc
+        if: script.qCurrent.videoSrc != script.q8.videoSrc
             script:   
                 playVideo(script.q12.videoSrc, script.q12.posterSrc, $context);
                 script.qCurrent.videoSrc = script.q8.videoSrc; 
