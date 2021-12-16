@@ -131,3 +131,9 @@ q18:
     question: "Расскажи про дивиденды в Беларуси"
     videoSrc: ""
     posterSrc: "https://tiserstorege.obs.ru-moscow-1.hc.sbercloud.ru/Resources/PROMimgQ18.jpeg"
+    
+qCurrent:
+    name: ""
+    question: ""
+    videoSrc: ""
+    posterSrc: ""
