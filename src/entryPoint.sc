@@ -37,8 +37,9 @@ theme: /
             log($jsapi.cailaService.getCurrentClassifierToken());
             $temp.appeal = $request.rawRequest.payload.character.appeal;
            
-            $reactions.buttons([script.q1.question, "Выйти"]);
             $session.videoSrc = "";
+            $reactions.buttons([script.q1.question, "Выйти"]);
+            
             
         if: $temp.appeal == "official"
             a: Чем могу помочь

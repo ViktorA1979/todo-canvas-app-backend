@@ -72,11 +72,14 @@ theme: /
 
     state: ЗапускВидеоQ1
         q!: $Q1 
-           
-        script:
+        if: $session.videoSrc === script.q1.videoSrc
+            script: 
+                
+        else:
+            script:   
 
-            playVideo(script.q1.videoSrc, script.q1.posterSrc, $context);
-            $reactions.buttons([script.q2.question, "Выйти"]);
+                playVideo(script.q1.videoSrc, script.q1.posterSrc, $context);
+                //$reactions.buttons([script.q2.question, "Выйти"]);
             
             
     state: ЗапускВидеоQ2
@@ -175,7 +178,7 @@ theme: /
             script:   
                 playVideo(script.q12.videoSrc, script.q12.posterSrc, $context);
                 
-                $reactions.buttons([script.q13.videoSrc, "Выйти"]);
+                //$reactions.buttons([script.q13.videoSrc, "Выйти"]);
                 $session.videoSrc =  script.q12.videoSrc; 
                 
             
