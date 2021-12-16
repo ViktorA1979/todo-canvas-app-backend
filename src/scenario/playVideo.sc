@@ -80,92 +80,137 @@ theme: /
 
                 playVideo(script.q1.videoSrc, script.q1.posterSrc, $context);
                 //$reactions.buttons([script.q2.question, "Выйти"]);
-            
+                $session.videoSrc =  script.q1.videoSrc
             
     state: ЗапускВидеоQ2
         q!: $Q2 
-           
-        script:
+        if: $session.videoSrc === script.q2.videoSrc
+            script: 
+                
+        else:
+            script:  
 
-            playVideo(script.q2.videoSrc, script.q2.posterSrc, $context);
+                playVideo(script.q2.videoSrc, script.q2.posterSrc, $context);
             //$reactions.buttons([script.q3.question, "Выйти"]);
-
+                $session.videoSrc =  script.q2.videoSrc
+                
     state: ЗапускВидеоQ3
         q!: $Q3 
-           
-        script:
+        if: $session.videoSrc === script.q3.videoSrc
+            script: 
+                
+        else:
+            script:   
+ 
 
-            playVideo(script.q3.videoSrc, script.q3.posterSrc, $context);
-            $reactions.buttons([script.q4.question, "Выйти"]);
+                playVideo(script.q3.videoSrc, script.q3.posterSrc, $context);
+            //$reactions.buttons([script.q4.question, "Выйти"]);
+                $session.videoSrc =  script.q3.videoSrc
             
             
     state: ЗапускВидеоQ4
         q!: $Q4
-           
-        script:
-
-            playVideo(script.q4.videoSrc, script.q4.posterSrc, $context);
-            $reactions.buttons([script.q5.question, "Выйти"]);
+        if: $session.videoSrc === script.q4.videoSrc
+            script: 
+                
+        else:
+            script:   
+      
+                playVideo(script.q4.videoSrc, script.q4.posterSrc, $context);
+            //$reactions.buttons([script.q5.question, "Выйти"]);
+                $session.videoSrc =  script.q4.videoSrc
 
     state: ЗапускВидеоQ5
         q!: $Q5
-           
-        script:
+        if: $session.videoSrc === script.q5.videoSrc
+            script: 
+                
+        else:
+            script:   
+       
+                playVideo(script.q5.videoSrc, script.q5.posterSrc, $context);
+            //$reactions.buttons([script.q6.question, "Выйти"]);
+                $session.videoSrc =  script.q5.videoSrc; 
 
-            playVideo(script.q5.videoSrc, script.q5.posterSrc, $context);
-            $reactions.buttons([script.q6.question, "Выйти"]);
-            $session.videoSrc =  script.q5.videoSrc; 
             
             
     state: ЗапускВидеоQ6
         q!: $Q6
-           
-        script:
+        if: $session.videoSrc === script.q6.videoSrc
+            script: 
+                
+        else:
+            script:   
 
-            playVideo(script.q6.videoSrc, script.q6.posterSrc, $context);
-            $reactions.buttons([script.q7.question, "Выйти"]);
+                playVideo(script.q6.videoSrc, script.q6.posterSrc, $context);
+            //$reactions.buttons([script.q7.question, "Выйти"]);
+                $session.videoSrc =  script.q6.videoSrc
 
     state: ЗапускВидеоQ7
         q!: $Q7
-           
-        script:
+        if: $session.videoSrc === script.q7.videoSrc
+            script: 
+                
+        else:
+            script:   
+    
 
-            playVideo(script.q7.videoSrc, script.q7.posterSrc, $context);
-            $reactions.buttons([script.q8.question, "Выйти"]);
+                playVideo(script.q7.videoSrc, script.q7.posterSrc, $context);
+            //$reactions.buttons([script.q8.question, "Выйти"]);
+                $session.videoSrc =  script.q7.videoSrc
             
             
     state: ЗапускВидеоQ8
         q!: $Q8
-           
-        script:
+        if: $session.videoSrc === script.q8.videoSrc
+            script: 
+                
+        else:
+            script:   
+     
             
-            playVideo(script.q8.videoSrc, script.q8.posterSrc, $context);
-            $reactions.buttons([script.q9.question, "Выйти"]);
+                playVideo(script.q8.videoSrc, script.q8.posterSrc, $context);
+           // $reactions.buttons([script.q9.question, "Выйти"]);
+                $session.videoSrc =  script.q8.videoSrc
             
     state: ЗапускВидеоQ9
         q!: $Q9
-           
-        script:
-
-            playVideo(script.q9.videoSrc, script.q9.posterSrc, $context);
-            $reactions.buttons([script.q10.question, "Выйти"]);
+        if: $session.videoSrc === script.q9.videoSrc
+            script: 
+                
+        else:
+            script:   
+  
+                playVideo(script.q9.videoSrc, script.q9.posterSrc, $context);
+           // $reactions.buttons([script.q10.question, "Выйти"]);
+                $session.videoSrc =  script.q9.videoSrc
             
             
     state: ЗапускВидеоQ10
         q!: $Q10
-           
-        script:
+        if: $session.videoSrc === script.q10.videoSrc
+            script: 
+                
+        else:
+            script:   
+        
 
-            playVideo(script.q10.videoSrc, script.q10.posterSrc, $context);
-            $reactions.buttons([script.q11.question, "Выйти"]);
+                playVideo(script.q10.videoSrc, script.q10.posterSrc, $context);
+            //$reactions.buttons([script.q11.question, "Выйти"]);
+                $session.videoSrc =  script.q10.videoSrc
 
     state: ЗапускВидеоQ11
         q!: $Q11 
-           
-        script:
+        if: $session.videoSrc === script.q11.videoSrc
+            script: 
+                
+        else:
+            script:   
+        
 
-            playVideo(script.q11.videoSrc, script.q11.posterSrc, $context);
-            $reactions.buttons([script.q12.question, "Выйти"]);
+                playVideo(script.q11.videoSrc, script.q11.posterSrc, $context);
+            //$reactions.buttons([script.q12.question, "Выйти"]);
+                $session.videoSrc =  script.q11.videoSrc
             
             
     state: ЗапускВидеоQ12
@@ -184,44 +229,69 @@ theme: /
             
     state: ЗапускВидеоQ13
         q!: $Q13
-           
-        script:
+        if: $session.videoSrc === script.q13.videoSrc
+            script: 
+                
+        else:
+            script:   
+        
 
-            playVideo(script.q13.videoSrc, script.q13.posterSrc, $context);
-            $reactions.buttons([script.q1.question, "Выйти"]);           
+                playVideo(script.q13.videoSrc, script.q13.posterSrc, $context);
+           // $reactions.buttons([script.q1.question, "Выйти"]);  
+                $session.videoSrc =  script.q13.videoSrc
     
     state: ЗапускВидеоQ14
         q!: $Q14
-           
-        script:
+        if: $session.videoSrc === script.q14.videoSrc
+            script: 
+                
+        else:
+            script:   
+        
 
-            playVideo(script.q14.videoSrc, script.q14.posterSrc, $context);
-            $reactions.buttons([script.q14.question, "Выйти"]);           
+                playVideo(script.q14.videoSrc, script.q14.posterSrc, $context);
+           // $reactions.buttons([script.q14.question, "Выйти"]);   
+                $session.videoSrc =  script.q14.videoSrc
 
     state: ЗапускВидеоQ15
         q!: $Q15
-           
-        script:
+        if: $session.videoSrc === script.q15.videoSrc
+            script: 
+                
+        else:
+            script:   
+      
 
-            playVideo(script.q15.videoSrc, script.q15.posterSrc, $context);
-            $reactions.buttons([script.q1.question, "Выйти"]);   
+                playVideo(script.q15.videoSrc, script.q15.posterSrc, $context);
+            //$reactions.buttons([script.q1.question, "Выйти"]);
+                $session.videoSrc =  script.q15.videoSrc
             
             
     state: ЗапускВидеоESG
         q!: $ESG 
-           
-        script:
+        if: $session.videoSrc === script.clip2.videoSrc
+            script: 
+                
+        else:
+            script:   
+       
 
-            playVideo(script.clip2.videoSrc, script.clip2.posterSrc, $context);
-            $reactions.buttons([script.clip1.question, "Выйти"]);
+                playVideo(script.clip2.videoSrc, script.clip2.posterSrc, $context);
+            //$reactions.buttons([script.clip1.question, "Выйти"]);
+                $session.videoSrc =  script.clip2.videoSrc
             
     state: ЗапускВидеоDBK
         q!:  $DBK
-       
-        script:
+        if: $session.videoSrc === script.clip1.videoSrc
+            script: 
+                
+        else:
+            script: 
+        
 
-            playVideo(script.clip1.videoSrc, script.clip1.posterSrc, $context);
-            $reactions.buttons([script.clip2.question, "Выйти"]);
+                playVideo(script.clip1.videoSrc, script.clip1.posterSrc, $context);
+            //$reactions.buttons([script.clip2.question, "Выйти"]);
+            $session.videoSrc =  script.clip1.videoSrc
 
 
     state: ЗапускПостерQ16
@@ -230,7 +300,7 @@ theme: /
         script:
 
             setPoster(script.q16.posterSrc, $context);
-            $reactions.buttons([script.q17.question, "Выйти"]);    
+            //$reactions.buttons([script.q17.question, "Выйти"]);    
             
     state: ЗапускПостерQ17
         q!:  $Q17
@@ -238,7 +308,7 @@ theme: /
         script:
 
             setPoster(script.q17.posterSrc, $context);
-            $reactions.buttons([script.q18.question, "Выйти"]);   
+            //$reactions.buttons([script.q18.question, "Выйти"]);   
             
     state: ЗапускПостерQ18
         q!:  $Q18
@@ -246,7 +316,7 @@ theme: /
         script:
 
             setPoster(script.q18.posterSrc, $context);
-            $reactions.buttons([script.q16.question, "Выйти"]);   
+            //$reactions.buttons([script.q16.question, "Выйти"]);   
             
     state: ЗапускПостер
         q!:  покажи постер
