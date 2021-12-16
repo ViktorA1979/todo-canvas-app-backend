@@ -181,7 +181,7 @@ theme: /
             script:   
   
                 playVideo(script.q9.videoSrc, script.q9.posterSrc, $context);
-           // $reactions.buttons([script.q10.question, "Выйти"]);
+                // $reactions.buttons([script.q10.question, "Выйти"]);
                 $session.videoSrc =  script.q9.videoSrc;
             
             
@@ -195,7 +195,7 @@ theme: /
         
 
                 playVideo(script.q10.videoSrc, script.q10.posterSrc, $context);
-            //$reactions.buttons([script.q11.question, "Выйти"]);
+                //$reactions.buttons([script.q11.question, "Выйти"]);
                 $session.videoSrc =  script.q10.videoSrc;
 
     state: ЗапускВидеоQ11
@@ -208,7 +208,7 @@ theme: /
         
 
                 playVideo(script.q11.videoSrc, script.q11.posterSrc, $context);
-            //$reactions.buttons([script.q12.question, "Выйти"]);
+                //$reactions.buttons([script.q12.question, "Выйти"]);
                 $session.videoSrc =  script.q11.videoSrc;
             
             
