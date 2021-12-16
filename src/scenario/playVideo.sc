@@ -167,7 +167,6 @@ theme: /
     state: ЗапускВидеоQ12
         q!: $Q12 
         
-        
             script:   
                 playVideo(script.q12.videoSrc, script.q12.posterSrc, $context);
                 $reactions.buttons([$session.videoSrc, "Выйти"]);
